@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-/* SECTION 1 */
+/* HEADER */
 
 .header {
     display: flex;
@@ -16,6 +16,7 @@ body {
     color: white;
     padding-left: 10vw;
     padding-right: 10vw;
+    height: 5vh;
 }
 
 .header-left {
@@ -41,17 +42,17 @@ li {
     gap: 14px;
 }
 
-/* SECTION 2 */
+/* SECTION 1 */
 
 .awsm {
     background-color: rgb(31,41,55);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex: 1;
     padding-left: 10vw;
     padding-right: 10vw;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    height: 25vh;
 }
 
 .awsm-left {
@@ -59,6 +60,7 @@ li {
     flex-direction: column;
     width: 40vw;
     height: 15vh;
+    padding: 5px;
 }
 
 .awsm-header {
@@ -82,6 +84,7 @@ li {
     height: 25px;
     margin: 5px;
     transition-duration: 0.4s;
+    border-radius: 4px;
 }
 
 .button-signup:hover {
@@ -100,8 +103,54 @@ li {
     height: 15vh;
 }
 
+/* SECTION 2 */
+
+.randinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.rand-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    margin: 15px;
+
+}
+
+.rand-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rand-box {
+    width: 15vw;
+    height: 
+}
+
 /* SECTION 3 */
+
+.quote {
+    display: flex;
+    height: 20vh;
+}
 
 /* SECTION 4 */
 
-/* SECTION 5 */
+.calltoaction {
+    display: flex;
+    height: 20vh;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    height: 5vh;
+}
