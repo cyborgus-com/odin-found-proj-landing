@@ -34,8 +34,8 @@ a {
     color: rgb(219, 219, 219);
 }
 
-li {
-}
+/* li {
+} */
 
 .header-right{
     display: flex;
@@ -89,7 +89,7 @@ li {
 }
 
 .button-signup:hover {
-    background-color: rgb(161, 196, 255);
+    background-color: white;
     color: rgb(53, 53, 53);
 }
 
@@ -161,10 +161,26 @@ li {
 
 .quote {
     display: flex;
-    background-color: rgb(186, 186, 186);
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(228,231,235);
     height: 17vh;
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 17vw;
+    padding-right: 17vw;
+}
+
+.quote-text {
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: left;
+    margin: 5px;
+}
+
+.quote-author {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: right;
+    margin: 5px;
 }
 
 /* SECTION 4 */
@@ -172,15 +188,38 @@ li {
 .calltoaction {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 17vh;
     padding-left: 10vw;
     padding-right: 10vw;
 }
 
+.cat-textbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    height: 8vh;
+    background-color: rgb(59,129,246);
+    border-radius: 8px;
+}
+
+.cat-text {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+}
+
+.cat-subtext {
+    font-size: 1em;
+    color: rgb(222,227,236);
+}
+
 .button-cta {
     background-color: rgb(59,129,246);
     color: white;
-    border: white;
+    border: 2px solid white;
     font-weight: bold;
     width: 90px;
     height: 25px;
@@ -189,9 +228,19 @@ li {
     border-radius: 4px;
 }
 
+.button-cta:hover {
+    background-color: white;
+    color: rgb(53, 53, 53);
+}
+
+
 /* FOOTER */
 
 .footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 6vh;
+    background-color: rgb(31,41,55);
+    color: white;
 }
